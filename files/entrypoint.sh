@@ -40,6 +40,7 @@ if [ ! -f "$qbtConfigFile" ]; then
 Session\DefaultSavePath=$downloadsPath
 Session\Port=6881
 Session\TempPath=$incompleteDownloadsPath/temp
+Session\TempPathEnabled=true
 
 [AutoRun]
 enabled=true
