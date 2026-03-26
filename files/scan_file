@@ -2,10 +2,10 @@
 
 set -xeu
 
-file_to_scan_path="${1}"
-email_address="$(cat /dest_email_address)"
-quarantine_dir="$(cat /quarantine_dir)"
-logs_dir="/var/log/cerberus"
+email_address="${1}"
+quarantine_dir="${2}"
+logs_dir="${3}"
+file_to_scan_path="${4}"
 
 file_to_scan_name="$(basename "${file_to_scan_path}")"
 log_file="${logs_dir}/${file_to_scan_name}_scan.log"
