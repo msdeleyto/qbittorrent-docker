@@ -1,4 +1,4 @@
-FROM qbittorrentofficial/qbittorrent-nox:5.1.4-1
+FROM qbittorrentofficial/qbittorrent-nox:5.2.0-1
 
 RUN apk update && apk upgrade
 
