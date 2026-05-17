@@ -24,7 +24,7 @@ jobs:
         fetch-tags: true
 
     - name: Publish to Docker Hub
-      uses: msdeleyto/gh-actions/.github/actions/publish-docker-image@1578c423f6215dba533ca7da47433cfe22748e5f # main
+      uses: msdeleyto/gh-actions/.github/actions/publish-docker-image@main
       with:
         image_name: qbittorrent
         dockerhub_username: ${{ vars.DOCKERHUB_USERNAME }}
