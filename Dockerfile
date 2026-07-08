@@ -1,4 +1,4 @@
-FROM qbittorrentofficial/qbittorrent-nox:5.1.4-1@sha256:41888f4e05646ace98aeaff01a7bbec714e2e6082ab273fd4af0d1210352ea2c
+FROM qbittorrentofficial/qbittorrent-nox:5.2.3-1@sha256:9ebb534fe30bab98622cb84a8c3acecfd88319b2d540f52ecdec7b9f866374d7
 
 RUN apk update && apk upgrade
 
